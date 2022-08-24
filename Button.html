@@ -12,13 +12,10 @@
 <h2>Нажми на нее и ты найдешь что нужно</h2>
 
 <button onclick="document.location='https://www.youtube.com/'">Переход по ссылке</button>
-
-<form action="">
-    <input type="url" inputmode="url" required>
-    <button>Submit</button>
-
-</form>
-
+    
+    <input id="myurl">
+    <button onclick="window.open(document.getElementById('myurl').value);">Submit</button>
+        
 </body>
 
 </html>
